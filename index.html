@@ -4,111 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Productly</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+    </style>
 </head>
 <body>
     <header>
         <div class="logo-wrapper">
-            <a href="#"><img src="assets/images/Bitmap.png" alt="logo"></a>
-            <h1><a href="#">Prodactly</a></h1>
+            <h1><a href="#"><img src="assets/images/Bitmap.png" alt="logo"></a>
+            <a href="#">Prodactly</a></h1>
         </div>
-        <nav>
-            <ul>
+        <div class="nav">
+            <ul class="list">
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Customers</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Resources</a></li>
             </ul>
-        </nav>
+        </div>
         <div class="header-auth">
-            <button>Sing In</button>
-            <button>Sing Up</button>
+            <button class="btn-sing-in">Sing In</button>
+            <button class="btn-sing-up">Sing Up</button>
         </div>
     </header>
 
     <main>
         <section class="hero">
-            <div>
+            <div class="hero">
                 <h2>The Design Thinking superpowers</h2>
                 <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
                 <div>
-                    <button>Get started</button>
-                    <button><i class="icon">▶</i> Watch the Video</button>
+                    <button class="btn-start">Get started</button>
+                    <button class="btn-watch"><i style="font-style: normal;" class="icon">▶</i> <span style="text-decoration: underline;">Watch the Video</span> </button>
                 </div>
             </div>
-            <div>
-                <img src="assets/images/image.svg" alt="happy people">
+            <div class="img-1">
+                <img class="img-oval" src="assets/images/Oval.svg" alt="">
+                <img class="img-happy-people" src="assets/images/image.svg" alt="happy people"> 
             </div>
         </section>
-
         <section class="tools">
-        <h2>We design tools to unveil your superpowers</h2>
-        <div class="cards">
-
-        </div>
-        <div>
-            <button>sign up now</button>
+        <div class="tools"> 
+            <h2 class="tools">We design tools to unveil your superpowers</h2>
+            <div class="cards">
+                <div class="card">
+                    <!--<div class="card-img-shadow"><div class="card-img-1"><i style="font-style: normal; width: 14px; height: 18px; margin-left: 19px; margin-top: 17px;" class="fas fa-mouse-pointer"></i></div> </div>-->
+                    <div class="icon">
+                        <div class="card-img-shadow" style="background: #7752BE;"></div>
+                        <div class="card-img-1"><i style="position: absolute; font-style: normal; width: 12px; height: 18px; margin-left: 19px; margin-top: 17px; color: #ffffff;"  class="fas fa-mouse-pointer"></i></div>
+                    </div>
+                    <h3>First click tests</h3>
+                    <p class="icon-text">While most people enjoy casino gambling,</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <div class="card-img-shadow" style="background: #FAB005;"></div>
+                        <div class="card-img-2"><i style="position: absolute; font-style: normal; width: 18px; height: 18px; margin-left: 16px; margin-top: 17px; color: #ffffff;" class="fab fa-stumbleupon"></i></div> 
+                    </div>
+                    <h3>Design surveys</h3>
+                    <p class="icon-text">Sports betting, lottery and bingo playing for the fun</p>
+                </div >
+                <div class="card">
+                    <div class="icon">
+                        <div class="card-img-shadow" style="background: #F03E3D;"></div>
+                        <div class="card-img-3"><i style="position: absolute; font-style: normal; width: 16px; height: 18px; margin-left: 17px; margin-top: 17px; color: #ffffff;" class="fas fa-heart"></i> </div>
+                    </div>
+                    <h3>Preference tests</h3>
+                    <p class="icon-text">The Myspace page defines the individual.</p>
+                </div>
+                <div class="card">
+                    <div class="card-img-shadow" style="background: #4DADF7;"></div>
+                    <div class="card-img-4"><i style="position: absolute; font-style: normal; width: 14px; height: 18px; margin-left: 19px; margin-top: 17px; color: #ffffff;" class="fas fa-hourglass-half"></i></div> 
+                    <h3>Five second tests</h3>
+                    <p class="icon-text">Personal choices and the overall personality of the person. </p>
+                </div>
+            </div>
+            <button class="btn-sign-up-now">sign up now</button>
+            
         </div>
         </section>
 
         <section class="professionals">
-            <div>
-                <h5>Effortless Validation for</h5>
-                <h1>Design Professionals</h1>
-                <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
-                <h5>Accessory makers</h5>
-                <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
-                <h5>Alterationists</h5>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
-                <h5>Custom Design designers</h5>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <div class="professionals">
+                <h5 style="font-style: normal; font-weight: 500; font-size: 16px; line-height: 24px;">Effortless Validation for</h5>
+                <h2 style="font-style: normal; font-weight: 700; font-size: 36px; line-height: 54px; margin-top: 3px;">Design Professionals</h2>
+                <p class="professionals-text" style="margin-top: 22px;">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                <h5 style="font-style: normal; font-weight: 700; font-size: 16px; line-height: 26px; margin-top: 30px;">Accessory makers</h5>
+                <p class="professionals-text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                <h5 style="font-style: normal; font-weight: 700; font-size: 16px; line-height: 26px; margin-top: 25px;">Alterationists</h5>
+                <p class="professionals-text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                <h5 style="font-style: normal; font-weight: 700; font-size: 16px; line-height: 26px; margin-top: 25px;">Custom Design designers</h5>
+                <p class="professionals-text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
-            <div>
-                <img src="assets/images/Image-2.svg" alt="">
+            <div class="man-with-phone">
+                <img src="assets/images/Image-2.svg" alt="man with phone">
             </div>
         </section>
         <section class="managers">
             <div><img src="assets/images/Image-3.svg" alt=""></div>
-            <div>
-                <h5>Easier decision making for</h5>
-                <h2>Product Managers</h2>
-                <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
-                <ul>
-                    <li>Never worry about overpaying for your energy again. </li>
-                    <li>We will only switch you to energy companies that we trust and will treat you right</li>
-                    <li>We track the markets daily and know where the savings are.</li>
+            <div class="managers-text">
+                <h5 style="font-style: normal; font-weight: 500; font-size: 16px; line-height: 24px;">Easier decision making for</h5>
+                <h2 style="font-style: normal; font-weight: 700; font-size: 36px; line-height: 54px; margin-top: 3px;">Product Managers</h2>
+                <p class="professionals-text" style="margin-top: 22px;">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+                <ul class="managers-list">
+                    <li class="managers-list-li"><img style="width: 35px; height: 35px;" src="assets/images/icon-yes.png" alt=""> <div style="width: 385px; height: 52px; margin-left: 30px;">Never worry about overpaying for your energy again.</div> </li>
+                    <li class="managers-list-li"> <img style="width: 35px; height: 35px;" src="assets/images/icon-yes.png" alt=""><div style="width: 385px; height: 52px; margin-left: 30px;">We will only switch you to energy companies that we trust and will treat you right</div></li>
+                    <li class="managers-list-li"> <img style="width: 35px; height: 35px;" src="assets/images/icon-yes.png" alt=""><div style="width: 385px; height: 52px; margin-left: 30px;">We track the markets daily and know where the savings are.</div></li>
                 </ul>
             </div>
         </section>
 
         <section class="marketers">
-            <div>
-                <h5>Optimisation for</h5>
-                <h2>Marketers</h2>
-                <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
-                <h5>Accessory makers</h5>
-                <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
-                <h5>Alterationists</h5>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
-                <h5>Custom Design designers</h5>
-                <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <div class="marketers-text">
+                <h5 style="font-style: normal; font-weight: 500; font-size: 16px; line-height: 24px; padding-top: 30px;">Optimisation for</h5>
+                <h2 style="font-style: normal; font-weight: 700; font-size: 36px; line-height: 54px; margin-top: 3px;">Marketers</h2>
+                <p class="professionals-text" style="margin-top: 22px;">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+                <h5  style="font-style: normal; font-weight: 700; font-size: 16px; line-height: 26px; margin-top: 30px;">Accessory makers</h5>
+                <p  class="professionals-text">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                <h5  style="font-style: normal; font-weight: 700; font-size: 16px; line-height: 26px; margin-top: 30px;">Alterationists</h5>
+                <p  class="professionals-text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                <h5  style="font-style: normal; font-weight: 700; font-size: 16px; line-height: 26px; margin-top: 30px;">Custom Design designers</h5>
+                <p  class="professionals-text">If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
-            <div><img src="assets/images/Image-4.svg" alt=""></div>
+            <div class="man-with-phone"><img src="assets/images/Image-4.svg" alt=""></div>
         </section>
     </main>
+    <img style="margin-left: 160px; margin-top: 146px;" src="assets/images/line.png" alt="">
     <footer>
-        <div class="logo-wrapper">
+        <div style="display: flex; margin-top: 102px; margin-left: 0px;" class="logo-wrapper">
             <a href="#"><img src="assets/images/Bitmap.png" alt="logo"></a>
-            <h1><a href="#">Prodactly</a></h1>
+            <h1 style="margin-left: 12px;"><a href="#">Prodactly</a></h1>
         </div>
-        <nav>
-            <ul>
+        <nav style="display: flex;">
+            <ul style="display: block; width: 118px; height: 205px; margin-left: 126px; margin-top: 102px; list-style: none; padding-top: 65px;">
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>
-            <ul>
+            <ul style="display: block; width: 131px; height: 205px; margin-left: 129px; margin-top: 102px; list-style: none; padding-top: 65px;">
                 <li><a href="#">Disclaimer</a></li>
                 <li><a href="#">Financing</a></li>
                 <li><a href="#">Privacy Policy</a></li>
@@ -116,8 +153,8 @@
             </ul>
         </nav>
         <div class="footer-auth">
-            <input type="text" size="40">
-            <button>sign up now</button>
+            <input style="width: 325px; height: 48px; border: 1px solid #BCD0E5; border-radius: 4px;" type="text" size="40">
+            <button style="height: 39px; width: 131px; margin-top: 21px; background-color: #FF9900; color: #ffffff; border: 1px solid #FF9900; border-radius: 4px; font-weight: 700; font-size: 16px; line-height: 24px;">sign up now</button>
         </div>
     </footer>
 </body>
